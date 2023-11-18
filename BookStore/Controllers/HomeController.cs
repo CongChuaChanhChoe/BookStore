@@ -18,11 +18,13 @@ namespace BookStore.Controllers
             _context = context;
             _httpContextAccessor = httpContextAccessor;
         }
+		//thu
 		// GET: Index
 		public IActionResult Index()
 		{
 			return View();
 		}
+		///
 		// GET: Login
 		[AllowAnonymous]
 		public IActionResult Login(string? ReturnUrl)
